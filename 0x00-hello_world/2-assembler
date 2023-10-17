@@ -1,2 +1,2 @@
 #!/bin/bash
-as -o mains main.c
+as -o master.s master.c
