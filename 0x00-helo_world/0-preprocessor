@@ -1,6 +1,2 @@
 #!/bin/bash
-If ! command -v gcc >/dev/null; then
-echo "The gcc command is not installed. Please install it and try again."
-exit 1
-fi
 gcc -E -o c "$CFILE"
