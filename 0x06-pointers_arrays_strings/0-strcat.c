@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - Entry point
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	int i = 0;
@@ -23,6 +24,7 @@ int main(void)
 		j++;
 	}
 
+	/* Add a terminating null byte. */
 	dest[i] = '\0';
 
 	return (dest);
