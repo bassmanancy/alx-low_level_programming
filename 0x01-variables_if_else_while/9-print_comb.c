@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints all possible combinations of single-digit numbers.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 int main(void)
@@ -12,14 +12,14 @@ int main(void)
 	int j;
 
 	for (i = 0; i <= 9; i++)
-		for (j = i + 1; j <= 9; j++)
 	{
-		putchar(i + '0');
+		putchar((i % 10) + '0');
+		if (num == 9)
+			continue;
+
 		putchar(',');
 		putchar(' ');
-		putchar(j + '0');
 	}
-}
 
 putchar('\n');
 
