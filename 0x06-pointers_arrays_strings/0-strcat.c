@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * _strncat - Concatenates two strings.
+ * _strcat - Concatenates two strings.
  * @dest: A concatenated upon string.
  * @src: Appended string to @dest.
  *
  * Return: Destination string @ dest.
  */
 
-char *_strncat(char *dest, const char *src)
+char *_strcat(char *dest, const char *src)
 {
-	int c = 0, dest_len = 0;
+	int index = 0;
+       	int dest_len = 0;
 
-	while (dest[c++])
+	while (dest[index++])
 		dest_len++;
 
-	for (c = 0; src[c]; c++)
-		dest[dest_len++] = src[c];
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
 
 	return (dest);
 }
