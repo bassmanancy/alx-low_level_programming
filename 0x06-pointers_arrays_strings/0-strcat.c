@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0.
+ * strcat -  concatenates two strings.
+ * @dest: first string.
+ * @src: second string.
+ * Return: dest.
  */
 
-int main(void)
+char *strcat(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
 
-	while (dest[i] != '\0')
+	while ([i] != '\0')
 	{
 		i++;
 	}
@@ -23,7 +24,6 @@ int main(void)
 		j++;
 	}
 
-	/* Add a terminating null byte. */
 	dest[i] = '\0';
 
 	return (dest);
