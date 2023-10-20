@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0.
+ * _strcat - Concatenates two strings.
+ * @dest: A concatenated upon string.
+ * @src: Appended string to @dest.
+ * Return: Destination string @ dest.
  */
 int main(void)
 {
