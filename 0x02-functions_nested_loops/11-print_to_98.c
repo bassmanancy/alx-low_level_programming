@@ -6,7 +6,7 @@
  * followed by a new line.
  * @n: number to begin with.
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
