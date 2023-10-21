@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Lists all natural numbers below 1024 
+ * main - Lists all natural numbers below 1024
  * that are multiplies of 3 or 5.
  *
  * Return: Always 0.
