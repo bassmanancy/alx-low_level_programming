@@ -11,7 +11,7 @@ void puts_half(char *str)
 	while (str[index++])
 		len++;
 
-	if ((len % 2) ==0)
+	if ((len % 2) == 0)
 		n = len / 2;
 
 	else
