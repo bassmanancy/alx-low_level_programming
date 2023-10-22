@@ -18,7 +18,7 @@ void print_triangle(int size)
 			for (index = 0; index < hash; index++)
 				_putchar('#');
 
-			if (has == size)
+			if (hash == size)
 				continue;
 
 			_putchar('\n');
