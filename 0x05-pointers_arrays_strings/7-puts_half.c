@@ -5,17 +5,6 @@
  * @str: A pointer to the string.
  * Return: Always 0.
  */
-
-/*
- * File: 7-puts_half.c
- * Auth: Bard
- *
- * Desc: Prints half of a string, followed by a new line.
- * @str: A pointer to the string.
- *
- * Return: Nothing.
- */
-
 void puts_half(char *str)
 {
 	char *start = str;
