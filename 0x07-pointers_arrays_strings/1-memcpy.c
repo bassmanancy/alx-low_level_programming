@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _memcpy - copies bytes from mem area src
- * to mem area dest.
+ * _memcpy - copies bytes from memory area @src
+ * to memory area @dest.
  * @n: bytes copied.
- * @deset: memory area to copy @src into.
- * @src: memory area to copy characters from.
+ * @deset: A pointer to the memory area to copy @src into.
+ * @src: The source buffer to copy characters from.
  * Return: dest.
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
