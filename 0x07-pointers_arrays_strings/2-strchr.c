@@ -10,7 +10,7 @@
  * Return: if c is found - a pointer to first occurence.
  * if c is not found - NULL
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
