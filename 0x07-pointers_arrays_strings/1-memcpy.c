@@ -5,7 +5,7 @@
  * _memcpy - copies bytes from memory area @src
  * to memory area @dest.
  * @n: bytes copied.
- * @deset: A pointer to the memory area to copy @src into.
+ * @dest: A pointer to the memory area to copy @src into.
  * @src: The source buffer to copy characters from.
  * Return: dest.
  */
